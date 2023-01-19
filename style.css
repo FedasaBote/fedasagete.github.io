@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  /* color: #333; */
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  position: relative;
+}
+h1 {
+  margin: 30px 0 40px 0;
+  font-size: 100px;
+  color: white;
+}
+.over {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  font-size: 100px;
+  color: rgb(250, 5, 5);
+  background-color: white;
+}
+.hidden {
+  display: none;
+}
+.takeToback {
+  z-index: -1;
+  opacity: 0.5;
+}
+.first-sec {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.first-sec p {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.first-sec input {
+  margin-right: 20px;
+}
+.first-sec label {
+  margin-right: 2.5px;
+}
+.second-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.shadow {
+  box-shadow: 3px 3px 10px 10px rgba(255, 255, 255, 0.322);
+}
+.grid-item {
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+.btn {
+  color: black;
+  margin-top: 40px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
